@@ -46,7 +46,7 @@ const HeroSection = () => {
           <h3 className="cont-text w-fit text-3xl sm:text-4xl md:text-4xl md:ml-0 xl:text-4xl text-[#154b9a] 2xl:text-5xl">
             Here for you !
           </h3>
-          <h2 className="cont-text text-2xl md:text-3xl  font-semibold leading-normal  text-[#0e1f51] xl:text-4xl 2xl:text-5xl max-w-[80vw] md:max-w-[50vw] ">
+          <h2 className="cont-text text-2xl md:text-3xl  font-semibold leading-normal  text-[#0e1f51] xl:text-3xl 2xl:text-4xl max-w-[80vw] md:max-w-[50vw] ">
             Transforming Ideas Into Intelligent Solutions With AI & Web
             Technology
           </h2>
