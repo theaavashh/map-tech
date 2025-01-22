@@ -31,10 +31,10 @@ import Circle from './Circle';
 const HeroSection = () => {
   useGSAP(() => {
     gsap.from('.cont-text', {
-      y: 20,
+      y: 30,
       opacity: 0,
       duration: 0.5,
-      delay: 0.3,
+      delay: 0.1,
       stagger: 2,
     });
   });
@@ -48,7 +48,7 @@ const HeroSection = () => {
           </h3>
           <h2 className="cont-text text-xl md:text-3xl  font-semibold leading-normal max-w-96 text-[#0e1f51] ">
             Transforming Ideas Into Intelligent Solutions With AI & Web
-            Technology -
+            Technology
           </h2>
           <Link href="/contact" className="">
             <button className="flex gap-2 text-lg md:text-2xl w-fit mt-4 px-2 py-2 bg-[#154B9A] text-white ring-2 rounded-lg ">
