@@ -15,6 +15,7 @@ import Service from '@/components/Services';
  */
 import work__life from '../../public/work_life.jpeg';
 import work__group from '../../public/work__group.jpeg';
+import Planning from '@/components/Planning';
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
           sect="We design innovative products that users adore, with a strong focus on website development that delivers exceptional user experiences. Our team combines creativity with cutting-edge technologies to craft visually appealing, responsive websites tailored to your business needs. From intuitive user interfaces to seamless functionality, we ensure that every digital product we build is designed to engage, inspire, and drive lasting connections with your audience."
           isAboutUs={false}
         />
+        <Planning />
       </div>
     </>
   );
