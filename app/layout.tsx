@@ -18,9 +18,6 @@ export const metadata: Metadata = {
   title: 'Map Technology',
   description:
     'M.A.P. Tech, we see technology as more than just a tool—it’s a catalyst for progress and innovation. Since our founding in 2024, we have been driven by a clear mission: to empower businesses with cutting-edge IT solutions tailored specifically to their needs.',
-  icons: {
-    icon: '/favicon.ico',
-  },
 };
 
 export default function RootLayout({

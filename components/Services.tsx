@@ -8,8 +8,6 @@ import array of service from resources
 */
 import service from '@/resources/ServiceArr';
 
-console.log(service);
-
 /* execute service component code*/
 const Service = () => {
   return (
