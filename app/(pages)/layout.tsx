@@ -1,6 +1,8 @@
 /*
 import package from react 
 */
+import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
 import React, { ReactNode } from 'react';
 
 /*
@@ -14,7 +16,13 @@ type LayoutType = {
 Default layout to all pages 
 */
 const Layout = ({ children }: LayoutType) => {
-  return <>{children}</>;
+  return (
+    <>
+      <Navbar />
+      {children}
+      <Footer />
+    </>
+  );
 };
 
 export default Layout;
