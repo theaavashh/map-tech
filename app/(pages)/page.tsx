@@ -16,6 +16,7 @@ import Service from '@/components/Services';
 import work__life from '../../public/work_life.jpeg';
 import work__group from '../../public/work__group.jpeg';
 import Planning from '@/components/Planning';
+import Technology from '@/components/Technology';
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
           isAboutUs={false}
         />
         <Planning />
+        <Technology />
       </div>
     </>
   );
