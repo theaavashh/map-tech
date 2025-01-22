@@ -53,7 +53,7 @@ const Navbar = () => {
           onClick={mobileView}
           className="col-span-8 lg:hidden text-3xl mt-5 mr-8 justify-self-end"
         />
-        <ul className="hidden lg:flex lg:justify-start xl:justify-end items-center lg:gap-10 xl:gap-14 font-semibold tracking-wide col-span-8 h-12 mt-8 text-[#0E1F51] xl:text-2xl text-xl mr-6 ">
+        <ul className="hidden lg:flex lg:justify-end items-start lg:gap-10 xl:gap-14 font-semibold tracking-wide col-span-8 h-12 mt-8 text-[#0E1F51] xl:text-2xl text-xl mr-6 ">
           <Link href="/about">
             <li>About</li>
           </Link>
