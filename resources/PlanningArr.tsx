@@ -149,7 +149,7 @@ const planning = [
       </svg>
     ),
     title: 'Develop',
-    desc: 'we take pride in turning innovative designs into high-performance digital products.From front-end to back-end development, our team leverages a wide range of programming languages and frameworks to create robust, secure, and efficient systems.',
+    desc: 'We take pride in turning innovative designs into high-performance digital products.From front-end to back-end development, our team leverages a wide range of programming languages and frameworks to create robust, secure, and efficient systems.',
   },
   {
     icon: (
@@ -223,7 +223,7 @@ const planning = [
       </svg>
     ),
     title: 'Test',
-    desc: 'we believe that thorough testing is key to delivering high-quality, reliable digital products. Our testing process is designed to identify and resolve issues early, ensuring that your product performs flawlessly before it reaches your users. ',
+    desc: 'We believe that thorough testing is key to delivering high-quality, reliable digital products. Our testing process is designed to identify and resolve issues early, ensuring that your product performs flawlessly before it reaches your users. ',
   },
   {
     icon: (
