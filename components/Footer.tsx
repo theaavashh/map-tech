@@ -133,7 +133,7 @@ const Footer = () => {
       </div>
       <hr className="py-5 mx-20" />
       <div className="text-center text-sm md:text-2xl pb-4">
-        Copyright {new Date().getFullYear()}, M.A.P Tech Pvt. Ltd.
+        Copyright {new Date().getFullYear()}, M.A.P. Tech Pvt. Ltd.
       </div>
     </footer>
   );
