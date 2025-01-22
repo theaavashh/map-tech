@@ -5,9 +5,9 @@ import postgres from '../public/postgre.png';
 import mysql from '../public/mysql.webp';
 import nextjs from '../public/nextjs.webp';
 import laravel from '../public/laravel.webp';
-import react from '../public/structure.png';
+import react from '../public/react.png';
 import node from '../public/node-js.png';
-import mongo from '../public/Mongodb-PNG-Picture.webp';
+import mongo from '../public/mongodb.webp';
 import aws from '../public/aws.webp';
 import golang from '../public/golang.webp';
 
@@ -41,7 +41,7 @@ const Technology = () => {
           provide the expertise and tools necessary to bring your digital vision
           to life.
         </h2>
-        <div className="flex gap-10 flex-wrap mx-8">
+        <div className="flex gap-10 flex-wrap mx-14 justify-center">
           {img.map((element, index) => (
             <Image
               key={index}
