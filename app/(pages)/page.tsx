@@ -13,6 +13,7 @@ import HeroSection from '@/components/HeroSection';
  import images from public folder
  */
 import work__life from '../../public/work_life.jpeg';
+import Service from '@/components/Services';
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
           subSect="Founded on the principles of innovation and collaboration, we take pride in working closely with our clients to understand their unique needs and provide tailored solutions that deliver measurable results."
           isAboutUs={true}
         />
+        <Service />
       </div>
     </>
   );
