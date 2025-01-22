@@ -18,6 +18,7 @@ import work__group from '../../public/work__group.jpeg';
 import Planning from '@/components/Planning';
 import Technology from '@/components/Technology';
 import Contact from '@/components/Contact';
+import Project from '@/components/Project';
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
         <Planning />
         <Technology />
         <Contact color="bg-[#0E1F51]" status={false} />
+        <Project />
       </div>
     </>
   );
