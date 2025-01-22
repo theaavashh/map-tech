@@ -8,12 +8,13 @@ import needed components from components folder
  */
 import AboutUs from '@/components/AboutUs';
 import HeroSection from '@/components/HeroSection';
+import Service from '@/components/Services';
 
 /*
  import images from public folder
  */
 import work__life from '../../public/work_life.jpeg';
-import Service from '@/components/Services';
+import work__group from '../../public/work__group.jpeg';
 
 const Home = () => {
   return (
@@ -29,6 +30,13 @@ const Home = () => {
           isAboutUs={true}
         />
         <Service />
+        <AboutUs
+          img_src={work__group}
+          h1="What We Do"
+          desc="We design innovative products that users adore."
+          sect="We design innovative products that users adore, with a strong focus on website development that delivers exceptional user experiences. Our team combines creativity with cutting-edge technologies to craft visually appealing, responsive websites tailored to your business needs. From intuitive user interfaces to seamless functionality, we ensure that every digital product we build is designed to engage, inspire, and drive lasting connections with your audience."
+          isAboutUs={false}
+        />
       </div>
     </>
   );
