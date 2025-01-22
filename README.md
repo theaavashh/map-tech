@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# M.A.P Tech Pvt. Ltd
+
+Welcome to the official repository of **M.A.P Tech Pvt. Ltd**, a creative and software development agency focused on revolutionizing industries through cutting-edge engineering.
+
+## About Us
+
+**M.A.P Tech Pvt. Ltd** is dedicated to providing innovative solutions that push the boundaries of technology. We specialize in software development, web design, and engineering services that cater to a wide range of industries. Our team works relentlessly to bring the future to life.
+
+## Our Mission
+
+To empower businesses by transforming ideas into reality using advanced technologies and innovative engineering practices. We aim to create sustainable and scalable solutions that help companies grow and thrive in the digital age.
+
+## Official Site
+
+For more information about our services, projects, and case studies, visit our official website:  
+[https://www.maptechnepal.com](https://www.maptech.com)
 
 ## Getting Started
 
-First, run the development server:
+To get started with our repository or project, follow the instructions below:
+
+### Prerequisites
+
+- [Install Node.js](https://nodejs.org/) (for web development)
+- [Install Git](https://git-scm.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/MAP-Tech/MAP-Tech.git
+
+   ```
+
+2. Execute the code
+
+Go to the project directory
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  cd map-tech
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start the server
 
-## Learn More
+```bash
+  npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+# Before commiting consideration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run eslint and prettier through husky
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run prettier
+git add .
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
