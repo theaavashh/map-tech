@@ -16,7 +16,7 @@ const project = [
   },
   {
     src: order__site,
-    title: 'Food Ordering Application',
+    title: 'Online Ordering Application',
   },
 ];
 const Project = () => {
@@ -26,10 +26,10 @@ const Project = () => {
         <h3 className="text-lg md:text-2xl text-[#154B9A]">Our Project</h3>
         <h2 className="text-xl md:text-3xl text-[#0E1F51]">Latest Work</h2>
       </div>
-      <div className="flex gap-1 flex-wrap my-1 justify-center items-center">
+      <div className="flex gap-10 mt-8 flex-wrap my-1 justify-center items-center">
         {project.map(({ src, title }, index) => (
           <div className="h-fit p-4" key={index}>
-            <div className="w-64 h-64 overflow-hidden">
+            <div className="w-72 h-72 overflow-hidden">
               <Image
                 src={src}
                 height={400}
@@ -38,7 +38,7 @@ const Project = () => {
                 className="object-cover"
               />
             </div>
-            <h4 className="text-center text-sm md:text-lg text-[#0E1F51] pt-5">
+            <h4 className="text-center text-sm md:text-xl text-[#0E1F51] pt-5">
               {title}
             </h4>
           </div>

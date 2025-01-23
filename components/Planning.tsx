@@ -14,10 +14,10 @@ execute planning component code
 const Planning = () => {
   return (
     <div>
-      <div className="flex flex-col items-center w-screen h-fit mb-8 ">
+      <div className="flex flex-col items-center w-screen h-fit my-8">
         <h4 className="text-lg md:text-xl text-[#154b9a]">Planning</h4>
         <h2 className="text-xl mb-5 md:text-2xl text-[#0E1F51]">Our Process</h2>
-        <div className="flex gap-4 flex-wrap justify-center">
+        <div className="flex gap-4 flex-wrap justify-center lg:mx-10">
           {planning.map(({ icon, title, desc }, index) => (
             <div
               key={index}
